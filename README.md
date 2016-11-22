@@ -5,7 +5,7 @@ To run your own input, mount your data to the `/data` volume and
 specify the traditional invocation command. In the following example,
 a file in the current directory named `FG51.inp` is passed into FigureGen.
 
-> docker run -it --rm -v `pwd`:/data stevemock/figuregen-docker /bin/sh -c 'FigureGen.out -I FG51.inp'
+> docker run -it --rm -v /path/to/local/data/directory:/data stevemock/figuregen-docker /bin/sh -c 'FigureGen.out -I FG51.inp'
 
 After FigureGen completes running, all output data will appear in your
 current directory.
