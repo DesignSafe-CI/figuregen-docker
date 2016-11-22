@@ -13,3 +13,5 @@ current directory.
 Configure your input '.inp' file like so:
 
 Use '/usr/lib/gmt/bin/' for the Path where GMT executables are located and '/usr/bin/' for the Path where GhostScript executable is located.
+
+See FG51.inp for a working example of an input file. This does not include the rest of the input data, however, and will not run as is.
